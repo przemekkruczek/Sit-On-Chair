@@ -87,7 +87,7 @@ function init3() {
     function klik1() {
         var ele = elementList[counter].classList.remove('visible');
         counter++;
-        if (counter === 7) {
+        if (counter === 2) {
             counter = 0;
         }
         var ele1 = elementList[counter].classList.add('visible');
@@ -96,7 +96,7 @@ function init3() {
         var ele = elementList[counter].classList.remove('visible');
         counter--;
         if (counter === -1) {
-            counter = 6;
+            counter = 1;
         }
         var ele1 = elementList[counter].classList.add('visible');
     }

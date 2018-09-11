@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 @font-face {
     font-family: 'Raleway';
     src: url('fonts/Raleway-Regular.eot');
@@ -79,6 +80,7 @@ html {
     float: right;
     margin-bottom: 20px;
 }
+
 .arrow-up {
     width: 0;
     height: 0;
@@ -87,25 +89,27 @@ html {
     border-bottom: 10px solid black;
     position: absolute;
     left: 32px;
-    top: -9px; }
+    top: 5px;
+}
 
 nav.headerMenu > ul > li {
     float: left;
     list-style: none;
     padding: 0;
-    margin-right: 68px;
+    margin-right: 48px;
     font-size: 14px;
     height: 100%;
     font-weight: 700;
+    padding-bottom: 20px;
+    padding-right: 20px;
 }
+
 nav.headerMenu > ul > li > ul {
-    margin-top: 20px;
-    height: 32px;
+    padding-top: 15px;
     display: none;
     position: absolute;
     z-index: 2;
 }
-
 
 nav.headerMenu > ul > li > ul >li {
     background-color: black;
@@ -115,7 +119,7 @@ nav.headerMenu > ul > li > ul >li {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    cursor: pointer;
 }
 
 section {
@@ -129,6 +133,7 @@ section {
     margin-top: 0;
     height: 506px;
 }
+
 article {
     font-size: 15px;
     padding-top: 57px;
@@ -151,13 +156,13 @@ article h1 {
     float: left;
 }
 
-
 #section1 aside {
     height: 100%;
     width: 600px;
     margin-left: 25px;
     margin-top: 54px;
 }
+
 aside.col-half ul{
     list-style: none;
 }
@@ -170,11 +175,11 @@ aside.col-half .visible{
     display: inline-block;
     height: 100%;
     width: 600px;
-
 }
+
 .col-half img {
-    height: 100%;
-    width: 597px;
+    padding-left: 170px;
+    padding-top: 75px;
 }
 
 .col-half h1 {
@@ -184,6 +189,7 @@ aside.col-half .visible{
     margin-right: 200px;
     font-size: 40px;
 }
+
 .col-half h1 strong {
     color: #24B89D;
 }
@@ -224,6 +230,7 @@ aside.col-half .visible{
     font-size: 79px;
     font-weight: 100;
 }
+
 .arrows2 a{
     text-decoration: none;
     width: 264px;
@@ -236,18 +243,22 @@ aside.col-half .visible{
     font-size: 79px;
     font-weight: 100;
 }
+
 .col-third1 {
     float: left;
     width: 32%;
 }
+
 .col-third2 {
     float: left;
     width: 32%;
 }
+
 .col-third3 {
     float: left;
     width: 32%;
 }
+
 article.col-third1{
     background-image: url(images/box1_img.jpg);
     height: 69%;
@@ -256,7 +267,9 @@ article.col-third1{
     margin-top: -24px;
     background-size: contain;
     background-repeat: no-repeat;
+    cursor: pointer;
 }
+
 article.col-third2{
     background-image: url(images/box2_img.jpg);
     height: 242px;
@@ -265,6 +278,7 @@ article.col-third2{
     margin-top: -24px;
     background-size: contain;
     background-repeat: no-repeat;
+    cursor: pointer;
 }
 
 .col-third1 header{
@@ -278,14 +292,15 @@ article.col-third2{
     padding-left: 20px;
     padding-top: 14px;
     background-color: rgba(255, 255, 255, .50);
-
 }
+
 .col-third1 div.underline1{
     background-color: #24B89D;
     width: 137px;
     height: 7px;
     margin-left: -3px;
 }
+
 .col-third2 header{
     font-size: 10px;
     position: absolute;
@@ -298,12 +313,14 @@ article.col-third2{
     padding-top: 14px;
     background-color: rgba(255, 255, 255, .50);
 }
+
 .col-third2 div.underline1{
     background-color: #24B89D;
     width: 137px;
     height: 7px;
     margin-left: -3px;
 }
+
 article.col-third3{
     height: 76%;
     width: 28.5%;
@@ -314,14 +331,17 @@ article.col-third3{
     padding-left: 22px;
     padding-right: 19px
 }
+
 article.col-third3 h2{
    font-size: 15px;
 }
+
 .advertisementFinds {
     margin-top: 13px;
     line-height: 1.5em;
     font-size: 14px;
 }
+
 .col-third3 div.underline1{
     background-color: #24B89D;
     width: 137px;
@@ -329,30 +349,37 @@ article.col-third3 h2{
     margin-left: 0;
     margin-top: 1px;
 }
+
 #section2 {
     height: 351px;
 }
+
 #section3 {
     height: 726px;
 }
+
 #section4 {
     height: 529px;
 }
+
 #section3 .container {
     background-color: #F1F1F1;
 }
+
 #section3 h1 {
     position: absolute;
     top: 6.5%;
     left: 6%;
     letter-spacing: 1.5px
 }
+
 #section4 h1 {
     position: absolute;
     top: 6.2%;
     left: 6%;
     letter-spacing: 1.5px
 }
+
 #section4 .underline2  {
     background-color: #24B89D;
     width: 320px;
@@ -360,6 +387,7 @@ article.col-third3 h2{
     margin-left: 72px;
     margin-top: -122px;
 }
+
 #section3 .underline2  {
     background-color: #24B89D;
     width: 320px;
@@ -367,6 +395,7 @@ article.col-third3 h2{
     margin-left: 66px;
     margin-top: 60px;
 }
+
 #section5 .underline2Left  {
     background-color: #24B89D;
     width: 320px;
@@ -374,6 +403,7 @@ article.col-third3 h2{
     margin-left: 66px;
     margin-top: 60px;
 }
+
 #section5 .underline2Right  {
     background-color: #24B89D;
     width: 320px;
@@ -381,19 +411,23 @@ article.col-third3 h2{
     margin-top: -5px;
     margin-left: -40px;
 }
+
 .col-third4 {
     float: left;
     width: 32%;
 }
+
 .col-third5 {
     float: left;
     width: 32%;
     margin-left: -22px;
 }
+
 .col-third6 {
     float: left;
     width: 32%;
 }
+
 .bookmark {
     margin-top: 19px;
     width: 330px;
@@ -403,8 +437,8 @@ article.col-third3 h2{
     margin-left: 134px;
     position: relative;
     background-color: #F9F9F9;
-
 }
+
 .big-circle {
     width: 54px;
     height: 54px;
@@ -415,6 +449,7 @@ article.col-third3 h2{
     left: 41.5%;
     background-color: white;
 }
+
 .small-circle {
     width: 25px;
     height: 25px;
@@ -425,11 +460,13 @@ article.col-third3 h2{
     left: 46.1%;
     background-color: #C2C2C2;
 }
+
 .naglowek {
     margin-top: 28px;
     color: #24B89D;
     margin-left: 5px;
 }
+
 .circlePrice {
     width: 130px;
     height: 130px;
@@ -440,21 +477,25 @@ article.col-third3 h2{
     left: 30.1%;
     background-color: white;
 }
+
 .price {
     margin-top: 28px;
     color: #C2C2C2;
     margin-left: 10px;
     font-size: 47px;
 }
+
 .price1 {
     margin-top: 1px;
     color: #C2C2C2;
     margin-left: -3px;
     font-size: 14px;
 }
+
 sup {
     font-size: 16px;
 }
+
 .des1 {
     position: absolute;
     width: 326px;
@@ -465,6 +506,7 @@ sup {
     text-align: center;
     font-weight: 400;
 }
+
 .des1 p {
     position: absolute;
     top: 9px;
@@ -472,6 +514,7 @@ sup {
     color: #A3A3A3;
     font-size: 21px;
 }
+
 .des2 {
     position: absolute;
     width: 326px;
@@ -482,6 +525,7 @@ sup {
     text-align: center;
     font-weight: 400;
 }
+
 .des2 p {
     position: absolute;
     top: 9px;
@@ -489,6 +533,7 @@ sup {
     color: #727272;
     font-size: 21px;
 }
+
 .des3 {
     position: absolute;
     width: 122px;
@@ -499,7 +544,9 @@ sup {
     left: 104px;
     border-radius: 6px 6px 6px 6px;
     font-weight: 400;
+    cursor: pointer;
 }
+
 .des3 p {
     position: absolute;
     top: 9px;
@@ -507,6 +554,7 @@ sup {
     color: white;
     font-size: 16px;
 }
+
 .col-third5 .bookmark {
     margin-top: 19px;
     width: 330px;
@@ -517,6 +565,7 @@ sup {
     position: relative;
     background-color: #24B89D;
 }
+
 .col-third5 .big-circle {
     width: 54px;
     height: 54px;
@@ -527,6 +576,7 @@ sup {
     left: 41.5%;
     background-color: #24B89D;
 }
+
 .col-third5 .small-circle {
     width: 25px;
     height: 25px;
@@ -537,11 +587,13 @@ sup {
     left: 46.1%;
     background-color: white;
 }
+
 .col-third5 .naglowek {
     margin-top: 28px;
     color: white;
     margin-left: 5px;
 }
+
 .col-third5 .circlePrice {
     width: 130px;
     height: 130px;
@@ -552,12 +604,14 @@ sup {
     left: 30.1%;
     background-color: white;
 }
+
 .col-third5 .price {
     margin-top: 28px;
     color: #24B89D;
     margin-left: 10px;
     font-size: 47px;
 }
+
 .col-third5 .price1 {
     margin-top: 1px;
     color: #24B89D;
@@ -586,6 +640,7 @@ sup {
     text-align: center;
     font-weight: 400;
 }
+
 .col-third5 .des2 p {
     position: absolute;
     top: 9px;
@@ -593,6 +648,7 @@ sup {
     color: #A3A3A3;
     font-size: 21px;
 }
+
 .col-third5 .des3 {
     position: absolute;
     width: 122px;
@@ -604,6 +660,7 @@ sup {
     border-radius: 6px 6px 6px 6px;
     font-weight: 400;
 }
+
 .col-third5 .des3 p {
     position: absolute;
     top: 9px;
@@ -611,6 +668,7 @@ sup {
     color: #24B89D;
     font-size: 16px;
 }
+
 .des4 {
     position: absolute;
     width: 326px;
@@ -621,6 +679,7 @@ sup {
     text-align: center;
     font-weight: 400;
 }
+
 .des4 p {
     position: absolute;
     top: 9px;
@@ -628,6 +687,7 @@ sup {
     color: #A3A3A3;
     font-size: 21px;
 }
+
 .col-third6 .bookmark {
     margin-top: 19px;
     width: 330px;
@@ -637,6 +697,7 @@ sup {
     margin-left: 181px;
     position: relative;
 }
+
 .des5 {
     position: absolute;
     width: 326px;
@@ -647,6 +708,7 @@ sup {
     text-align: center;
     font-weight: 400;
 }
+
 .col-third6 .des5 p {
     position: absolute;
     top: 9px;
@@ -654,6 +716,7 @@ sup {
     color: #A3A3A3;
     font-size: 21px;
 }
+
 .col-third6 .des4 {
     position: absolute;
     width: 326px;
@@ -664,6 +727,7 @@ sup {
     text-align: center;
     font-weight: 400;
 }
+
 .col-third6 .des4 p {
     position: absolute;
     top: 9px;
@@ -682,6 +746,7 @@ sup {
 .choice, .image {
     float: left;
 }
+
 #section5 .left {
     position: absolute;
     top: 9.5%;
@@ -689,6 +754,7 @@ sup {
     letter-spacing: 1.5px;
     font-size: 1.5em;
 }
+
 #section5 .right {
     position: absolute;
     top: 9.5%;
@@ -696,6 +762,7 @@ sup {
     letter-spacing: 1.5px;
     font-size: 1.5em;
 }
+
 .image {
     margin: 50px 75px;
 }
@@ -760,11 +827,13 @@ sup {
     width: 49px;
     top: 0;
 }
+
 .checkbox label:after {
     background: url("images/form_ok.jpg") no-repeat center;
     border: 0;
     display: none;
 }
+
 .checkbox input:checked+label:after {
     display: block;
 }
@@ -878,17 +947,20 @@ sup {
 .showList {
     display: none;
 }
+
 .listPanel li {
     margin-top: 10px;
     cursor: pointer;
     color: #585858;
     font-size: 16px;
 }
+
 /*///////////////////////////////////////////////////////////////////////////*/
 .col-half form {
     position: absolute;
     left: 20px;
 }
+
 input[type="text"] {
     border: 1px solid #24B89D;
     margin-left: 52px;
@@ -900,6 +972,7 @@ input[type="text"] {
     padding-left: 14px;
     font-weight: 100;
 }
+
 input[type="email"] {
     border: 1px solid #24B89D;
     margin-left: 52px;
@@ -911,6 +984,7 @@ input[type="email"] {
     padding-left: 14px;
     font-weight: 100;
 }
+
 textarea {
     border: 1px solid #24B89D;
     margin-left: 52px;
@@ -924,6 +998,7 @@ textarea {
     width: 633px;
     height: 188px;
 }
+
 .checkboxContact {
     float: right;
     width: 343px;
@@ -931,6 +1006,7 @@ textarea {
     font-size: 20px;
     margin-right: 20px;
 }
+
 .checkboxContact input {
     position: absolute;
     opacity: 0;
@@ -940,6 +1016,7 @@ textarea {
     float: left;
     top:164px;
 }
+
 .checkboxContact label {
     cursor: pointer;
     display: block;
@@ -949,6 +1026,7 @@ textarea {
     color: #cecece;
     margin: 15px 0 36px 0;
 }
+
 .checkboxContact label:before, .checkboxContact label:after {
     border: 1px solid #27c7ab;
     content: "";
@@ -959,14 +1037,17 @@ textarea {
     width: 49px;
     top: 0;
 }
+
 .checkboxContact label:after {
     background: url("images/form_ok.jpg") no-repeat center;
     border: 0;
     display: none;
 }
+
 .checkboxContact input:checked+label:after {
     display: block;
 }
+
 input[type="submit"] {
     border: 1px solid #24B89D;
     margin-left: 742px;
@@ -982,7 +1063,9 @@ input[type="submit"] {
     color: white;
     border-radius: 10px 10px 10px 10px;
     background-color: #24B89D;
+    cursor: pointer;
 }
+
 .ad {
     padding-left: 15%;
     padding-top: 96%;
@@ -991,6 +1074,7 @@ input[type="submit"] {
     font-size: 20px;
     width: 408px;
 }
+
 #section4 aside{
     background-image: url(images/red_chair.png);
     height: 100%;
@@ -1001,9 +1085,11 @@ input[type="submit"] {
     background-repeat: no-repeat;
     position: absolute;
 }
+
 footer {
     height: 120px;
 }
+
 .reserved {
     float: left;
     padding-left: 69px;
@@ -1012,6 +1098,7 @@ footer {
     color: #989898;
     letter-spacing: 0.6px;
 }
+
 .adds {
     float: right;
     padding-top: 38px;
@@ -1020,6 +1107,7 @@ footer {
     letter-spacing: 0.6px;
     padding-right: 81px;
 }
+
 .twit {
     float: right;
     background-image: url(images/twitter.png);
@@ -1028,6 +1116,7 @@ footer {
     margin-top: 26px;
     margin-right: 69px;
 }
+
 .pin {
     float: right;
     background-image: url(images/pinterest.png);
@@ -1036,6 +1125,7 @@ footer {
     margin-top: 26px;
     margin-right: 6px;
 }
+
 .vim {
     float: right;
     background-image: url(images/vimeo.png);
@@ -1044,6 +1134,7 @@ footer {
     margin-top: 26px;
     margin-right: 7px;
 }
+
 .flickr {
     float: right;
     background-image: url(images/flickr.png);
@@ -1052,6 +1143,7 @@ footer {
     margin-top: 26px;
     margin-right: 5px;
 }
+
 a {
     text-decoration: none;
     color: white;
